@@ -1,0 +1,42 @@
+
+.header{
+   text-align: center;
+}
+.form-group {
+   margin-bottom: 20px;
+ }
+
+ label {
+   display: block;
+   margin-bottom: 5px;
+   font-weight: bold;
+ }
+
+ input[type="text"],
+ input[type="email"],
+ input[type="tel"],
+ textarea,
+ select {
+   width: 100%;
+   padding: 8px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+ }
+
+ .btn {
+   padding: 10px 20px;
+   background-color: #4CAF50;
+   border: none;
+   color: white;
+   cursor: pointer;
+ }
+
+ .btn:hover {
+   background-color: #45a049;
+ }
+
+ .error {
+   color: red;
+   font-size: 12px;
+   margin-top: 5px;
+ }
